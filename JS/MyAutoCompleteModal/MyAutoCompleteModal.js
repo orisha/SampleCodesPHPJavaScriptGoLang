@@ -1,6 +1,11 @@
 /**
  * @author : Diego Favero
  *
+ * It will prototype jQuery Autocomplete and jQuery Dialog, combining both to a better and easier user experience
+ *  It uses infinite scrolling ( literally ) .... if the results get to an end, it will start to repeat the results
+ *  It does the ajax request
+ *  it gets templates
+ *
  * @type {HTMLCollectionOf<Element>}
  * @private
  */
@@ -16,6 +21,7 @@ var __ParentThis;
 var __DivResultsScroll;
 var __LastSearch = '';
 var __InputBig
+
 // will hold the modal object
 var __DivHoodModal;
 var __DivHoodView;
@@ -48,6 +54,9 @@ var HowManySearchSegmentsHasBeenProcessed;
 
             // validations
 
+            /**
+             * @TODO -> Better Handle errors
+             */
             if ( !$(this).attr('id')){
 
                 console.log(' Please, add ID attribute to Object')
@@ -55,9 +64,11 @@ var HowManySearchSegmentsHasBeenProcessed;
                 return ;
             }
 
+
+            // to asure destroy
             AllLoaded.push($(this).attr('id'));
 
-
+            // it uses infinute scrolling
             DivLoadingInfinite = $('<div>').addClass('MYACM_KILL DivLoadingInfinite').attr('id', 'DivLoadingInfinite')
 
 
@@ -159,6 +170,9 @@ var HowManySearchSegmentsHasBeenProcessed;
             }
 
 
+            /**
+             * @TODO -> Better Handle errors
+             */
             if (!options || !options.source){
 
                 console.log(' Need a URL on MyAutoCompleteModal')
@@ -315,6 +329,7 @@ var HowManySearchSegmentsHasBeenProcessed;
 
                         __destroyIt();
                     });
+
                 // var SerchResultCount = $('<span>')
                 //     .appendTo(SerchResultCountTxt)
                 //     .attr('id', 'SerchResultCount')
@@ -386,6 +401,10 @@ var HowManySearchSegmentsHasBeenProcessed;
                 });
             }
 
+            /**
+             *
+             * @constructor
+             */
 
             InfiniteScroll = function(){
 
@@ -393,6 +412,11 @@ var HowManySearchSegmentsHasBeenProcessed;
 
             }
 
+            /**
+             *
+             * @returns {*}
+             * @private
+             */
             __CleanMainUXSearchResults = function(){
 
                 CountResultsPerSearch = 0;
@@ -404,6 +428,11 @@ var HowManySearchSegmentsHasBeenProcessed;
             }
 
 
+            /**
+             *
+             * @returns {boolean}
+             * @constructor
+             */
             EmptyResult = function () {
 
                 __CleanMainUXSearchResults();
@@ -426,6 +455,12 @@ var HowManySearchSegmentsHasBeenProcessed;
             }
 
 
+            /**
+             *
+             * @param NoSearch
+             * @returns {*}
+             * @private
+             */
             __ExtendSearch = function(NoSearch){
 
                 // $("#__Div__Results__").animate({ scrollTop: $('#__Div__Results__').prop("scrollHeight")}, 300);
@@ -590,6 +625,12 @@ var HowManySearchSegmentsHasBeenProcessed;
             }
 
 
+            /**
+             *
+             * @param url_source
+             * @param SearchLoop
+             * @constructor
+             */
             DoTheAjaxSearch = function(url_source, SearchLoop){
 
                 if ( options.LimitResults ){
@@ -688,6 +729,11 @@ var HowManySearchSegmentsHasBeenProcessed;
 
             }
 
+            /**
+             *
+             * @returns {*|jQuery|HTMLElement}
+             * @constructor
+             */
             GetTheResults = function(){
 
                 return $(function () {
@@ -727,6 +773,12 @@ var HowManySearchSegmentsHasBeenProcessed;
 
             }
 
+            /**
+             *
+             * @param e
+             * @returns {number}
+             * @constructor
+             */
             TriggerAjaxSearch = function(e){
 
                 // ESC ? Destroy it

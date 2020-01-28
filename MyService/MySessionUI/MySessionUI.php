@@ -1,25 +1,36 @@
 <?php
 /**
  **
- * Since the system is using and array identified by client for seasson
  *
- * this service will prototype the Synfony's Session, and then, use it !
+ *  THIS IS A " HOW I CODE " SAMPLE . It will not complie because it has many ( not included ) dependencies
+ *
+ * It is an essential part in a huge management system
+ *
+ * Since the system is using and array to identify each client for its Session
+ *
+ * this service will prototype the Symfony's Session, and then, use it !
  *
  * On Action, the session will be $sess[CLIENT], but, the system will take it only as $sess
  *
  *
  *
- * This class has been used with dynamic and on the fly  database connection, so it has many dependencies not include on this sample package
+ * This class has been used with dynamic and on the fly  database connection,
+ * so it has many dependencies not include on this sample package
  *
  *
  *
- * @author Diego Favero
- * #|@since 2015/04/28
+ *  @author Diego Favero
+ *  @since 2015/04/28
+ *
  */
 
 namespace MyService\MySessionUI;
 
 
+/**
+ *
+ * The follow includes are actually used in the system, but useless in tis sample package
+ */
 
 use FIBOO\FibooBundle\Entity\BaseDeDados;
 use FIBOO\FibooBundle\Entity\BaseAtiva;
@@ -33,6 +44,7 @@ use BUYER\BuyerBundle\Entity\Usuario;
 use Symfony\Component\DependencyInjection\Container;
 use Symfony\Component\HttpFoundation\Session\Session;
 use Symfony\Component\HttpKernel\Exception\NotFoundHttpException;
+
 
 
 class MySessionUI {
