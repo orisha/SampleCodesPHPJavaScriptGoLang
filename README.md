@@ -21,7 +21,7 @@ UX Study : http://18.216.194.20/fibootkt/MY_app_dev.php/pt
 
 
 
-PHP - Symfony 
+<b>PHP - Symfony </b>
 
 How the system is multiclient and multiplatafform, I had to manage differents sessions from each client/user/platafform
 
@@ -35,7 +35,7 @@ To achieve that, I basically overide the Symfony Session component re-writing a 
 
 
 
-GoLang 
+<b>GoLang</b> 
 
 Golang has taken an important hole in the system. Many new modules were built using golang as controller or API 
 
@@ -48,11 +48,11 @@ That struct will be transformed into an Insert or Update SQL statement according
 Simple and abstract !
 
 
-JavaScript - jQuery
+<b>JavaScript - jQuery</b>
 
 I have combined many jQuery native plugins to achieve best user experience when searching a product
 
-the MyAutoCompleteModal uses 
+the <b>MyAutoCompleteModal</b> uses 
 
 _ Dialog
 _ AutoComplete
@@ -63,7 +63,7 @@ Creating an elegant and efficient way to better use of the search field
 
 
 
-External Seller :
+<b>External Seller </b>:
 
 It will inject ( in this case ) the ticket listing to be displayed and put on sell into the clients website
 
