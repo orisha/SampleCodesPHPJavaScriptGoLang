@@ -2,9 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="34af2ae1-a647-4c65-8a3d-e739bc620d36" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/GoLang/MyCRUD/Insert.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JS/MyAutoCompleteModal/MyAutoCompleteModal.js" beforeDir="false" afterPath="$PROJECT_DIR$/JS/MyAutoCompleteModal/MyAutoCompleteModal.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyService/MySessionUI/MySessionUI.php" beforeDir="false" afterPath="$PROJECT_DIR$/MyService/MySessionUI/MySessionUI.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS/MyAutoCompleteModal/MyAutoCompleteModal.js" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript - jQuery/MyAutoCompleteModal/MyAutoCompleteModal.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS/MyAutoCompleteModal/css/MyAutoCompleteModal.css" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript - jQuery/MyAutoCompleteModal/css/MyAutoCompleteModal.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS/MyAutoCompleteModal/images/ajax-loader 2.gif" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript - jQuery/MyAutoCompleteModal/images/ajax-loader 2.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS/MyAutoCompleteModal/images/ajax-loader.gif" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript - jQuery/MyAutoCompleteModal/images/ajax-loader.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS/MyAutoCompleteModal/images/ajax-loader.psd" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript - jQuery/MyAutoCompleteModal/images/ajax-loader.psd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS/MyAutoCompleteModal/images/hover_search.gif" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript - jQuery/MyAutoCompleteModal/images/hover_search.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyService/MySessionUI/MySessionUI.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHP - Symfony/MySessionUI/MySessionUI.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,7 +22,7 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MyService/MySessionUI/MySessionUI.php">
+        <entry file="file://$PROJECT_DIR$/PHP - Symfony/MySessionUI/MySessionUI.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
               <caret line="6" column="54" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="54" />
@@ -27,23 +33,32 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="330">
-                <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+              <first_editor relative-caret-position="750">
+                <caret line="65" lean-forward="true" selection-start-line="65" selection-end-line="65" />
               </first_editor>
               <second_editor />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/JS/MyAutoCompleteModal/MyAutoCompleteModal.js">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/JavaScript - jQuery/MyAutoCompleteModal/MyAutoCompleteModal.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
               <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/GoLang/MyCRUD/Insert.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-3140">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
             </state>
           </provider>
         </entry>
@@ -56,6 +71,11 @@
     </findStrings>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Diego Favero" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
@@ -63,8 +83,9 @@
       <list>
         <option value="$PROJECT_DIR$/MySessionUI.php" />
         <option value="$PROJECT_DIR$/MyService/MySessionUI/MySessionUI.php" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/JS/MyAutoCompleteModal/MyAutoCompleteModal.js" />
+        <option value="$PROJECT_DIR$/GoLang/MyCRUD/Insert.go" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -89,12 +110,18 @@
             <path>
               <item name="SampleCodeProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="SampleCodeProject" type="462c0819:PsiDirectoryNode" />
-              <item name="JS" type="462c0819:PsiDirectoryNode" />
+              <item name="GoLang" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SampleCodeProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="SampleCodeProject" type="462c0819:PsiDirectoryNode" />
-              <item name="MyService" type="462c0819:PsiDirectoryNode" />
+              <item name="GoLang" type="462c0819:PsiDirectoryNode" />
+              <item name="MyCRUD" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SampleCodeProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SampleCodeProject" type="462c0819:PsiDirectoryNode" />
+              <item name="JavaScript - jQuery" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -110,12 +137,13 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/JS" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/MyService/MySessionUI" />
       <recent name="$PROJECT_DIR$/MyService" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/GoLang" />
+      <recent name="$PROJECT_DIR$/JS" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -143,12 +171,20 @@
       <workItem from="1579385371763" duration="241000" />
       <workItem from="1579450641182" duration="680000" />
       <workItem from="1580061068891" duration="11000" />
-      <workItem from="1580226756790" duration="1771000" />
+      <workItem from="1580226756790" duration="3034000" />
     </task>
+    <task id="LOCAL-00001" summary="few improvements and comments&#10;Readme">
+      <created>1580230390391</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1580230390391</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2703000" />
+    <option name="totallyTimeSpent" value="3966000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -177,8 +213,14 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="few improvements and comments&#10;Readme" />
+    <option name="LAST_COMMIT_MESSAGE" value="few improvements and comments&#10;Readme" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/MyService/MySessionUI/MySessionUI.php">
+    <entry file="file://$PROJECT_DIR$/PHP - Symfony/MySessionUI/MySessionUI.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="54" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="54" />
@@ -188,20 +230,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="330">
-            <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JS/MyAutoCompleteModal/MyAutoCompleteModal.js">
+    <entry file="file://$PROJECT_DIR$/JavaScript - jQuery/MyAutoCompleteModal/MyAutoCompleteModal.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GoLang/MyCRUD/Insert.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3140">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="750">
+            <caret line="65" lean-forward="true" selection-start-line="65" selection-end-line="65" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
