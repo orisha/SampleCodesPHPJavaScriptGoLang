@@ -45,7 +45,7 @@ import org.json.JSONObject
 import java.lang.Exception
 
 @SuppressLint("StaticFieldLeak")
-class AsyncNFCAPI(private var activity: Activity?) : AsyncTask&#60NFCAPIRequest, Int, JSONObject?>() {
+class AsyncNFCAPI(private var activity: Activity?) : AsyncTask<NFCAPIRequest, Int, JSONObject?>() {
 
     override fun onPreExecute() {
         super.onPreExecute()
