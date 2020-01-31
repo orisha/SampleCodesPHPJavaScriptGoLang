@@ -75,3 +75,40 @@ the script will inject all content need to perform a sell !
 
 
 
+Kotlin :
+
+By need, I have study a bit o mobile development, and I chose Kotlin over Java ....
+Heres a sample code from an app that reads a NFC tag nad then makes a request to an API 
+
+
+
+Async Api Request :
+
+
+/**
+
+ sample use
+
+ var task = AsyncNFCAPI(this)
+
+ val req =
+ NFCAPIRequest (
+ BaseUrl = "http://192.169.9.168:9663/",
+ action = "SellerStatement",
+ payload = mapOf("seller" to 1, "first" to 0, "last" to 5),
+ method = "POST"
+
+ )
+
+ GlobalScope.launch( context = Dispatchers.Main){
+
+    task?.execute(req)
+}
+
+ GlobalScope.launch( context = Dispatchers.Main){
+
+    println( "Here gets the result from async task " +  task?.get().toString() )
+}
+
+
+ */
