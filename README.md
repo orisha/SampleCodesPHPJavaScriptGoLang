@@ -1,11 +1,11 @@
-# ExtendSymfonySession
+# Sample Codes 
 
 
 WARN : 
 
 _ This is only a " HOW I CODE " Sample . 
 
-_ The files will probably not run because it has many NOT INCLUDED dependencies
+_ The files will probably not run because they have many NOT INCLUDED dependencies
 
 
 All the scripts here are a piece of code from an essential part in a huge management system
