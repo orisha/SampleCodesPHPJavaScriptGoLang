@@ -15,7 +15,7 @@
 
  val req =
  NFCAPIRequest (
- BaseUrl = "http://192.169.9.168:9663/",
+ BaseUrl = "http://18.216.194.20:9663/",
  action = "SellerStatement",
  payload = mapOf("seller" to 1, "first" to 0, "last" to 5),
  method = "POST"

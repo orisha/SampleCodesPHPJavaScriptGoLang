@@ -84,19 +84,19 @@ Heres a sample code from an app that reads a NFC tag nad then makes a request to
 
 Async Api Request :
 
+<pre>
 
-/**
 
  sample use
 
  var task = AsyncNFCAPI(this)
 
  val req =
- NFCAPIRequest (
- BaseUrl = "http://192.169.9.168:9663/",
- action = "SellerStatement",
- payload = mapOf("seller" to 1, "first" to 0, "last" to 5),
- method = "POST"
+     NFCAPIRequest (
+         BaseUrl = "http://18.216.194.20:9663/",
+         action = "SellerStatement",
+         payload = mapOf("seller" to 1, "first" to 0, "last" to 5),
+         method = "POST"
 
  )
 
@@ -111,4 +111,5 @@ Async Api Request :
 }
 
 
- */
+ 
+</pre>

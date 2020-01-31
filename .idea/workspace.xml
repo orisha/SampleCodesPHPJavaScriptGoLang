@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="34af2ae1-a647-4c65-8a3d-e739bc620d36" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Kotlin/AsyncAPIRequest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-    </list>
+    <list default="true" id="34af2ae1-a647-4c65-8a3d-e739bc620d36" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -179,7 +175,7 @@
       <workItem from="1579450641182" duration="680000" />
       <workItem from="1580061068891" duration="11000" />
       <workItem from="1580226756790" duration="3893000" />
-      <workItem from="1580482046766" duration="247000" />
+      <workItem from="1580482046766" duration="681000" />
     </task>
     <task id="LOCAL-00001" summary="few improvements and comments&#10;Readme">
       <created>1580230390391</created>
@@ -209,11 +205,18 @@
       <option name="project" value="LOCAL" />
       <updated>1580480689852</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="few improvements and comments&#10;Readme">
+      <created>1580482298012</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1580482298012</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5072000" />
+    <option name="totallyTimeSpent" value="5506000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
