@@ -75,7 +75,7 @@ the script will inject all content need to perform a sell !
 
 
 
-Kotlin :
+<b>Kotlin</b> :
 
 By need, I have study a bit o mobile development, and I chose Kotlin over Java ....
 Heres a sample code from an app that reads a NFC tag nad then makes a request to an API 
