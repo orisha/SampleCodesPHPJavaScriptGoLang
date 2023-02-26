@@ -7,6 +7,11 @@ Files on www folder
 
 ### This is a conceptual notification app. ###
 
+The Goal : To be possible to easily add 
+ - new notification channels ( such as sms, email, push ) 
+ - new Loguers ( DB, File, Redis, etc )
+ - new routes / controllers
+
 Instead of actually send a notification, it logs on 'ProofOfConcept.txt'
 
 The logs are been recorded on notification.json file. I really would not advice to use this schema on real world scenario.
