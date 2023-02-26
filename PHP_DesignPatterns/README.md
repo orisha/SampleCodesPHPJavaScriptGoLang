@@ -16,7 +16,11 @@ The frontend is just getting all entries on logs and displaying it. Again, not g
 
 The Notifications and its logs are sent synchronously. In a production system I would stick to Laravel Queue and Workers to trigger it asynchronously.
 
+In order to host this application, I also built a small router.
 
+The router will wrap the request in a object and pass it along to the respective controller. 
+
+In order to test it, there is a mockery class to generate users. 
 
 
 /**
